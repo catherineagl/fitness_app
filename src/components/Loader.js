@@ -4,7 +4,7 @@ import {Bars} from 'react-loader-spinner';
 
 const Loader = () => {
   return (
-    <Stack direction="row" justifyContent="center" alingItems="center" width="100%">
+    <Stack direction="row" justifyContent="center" alignItems="center" width="100%">
       	<Bars color="#00BFFF" height={80} width={80} />
     </Stack>
   )
